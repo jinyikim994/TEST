@@ -4,11 +4,8 @@
     touch-action: none;
 }
 
-video::-webkit-media-controls {
-    display: none !important;
-}
-video::-webkit-media-controls-start-playback-button {
-    display: none !important;
+video::-webkit-media-controls-play-button {
+  display: none;
 }
 
 video {
