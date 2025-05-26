@@ -1,5 +1,8 @@
-/* 비디오 테스트 */
-
+/* 기본 (데스크탑 + 아이패드 포함): 3열 유지 */
+.gallery video {
+    pointer-events: none;
+    touch-action: none;
+}
 
 video {
     pointer-events: none;
@@ -16,7 +19,7 @@ video {
     height: auto;
 }
 
-/* 기본 (데스크탑 + 아이패드 포함): 3열 유지 */
+
 #main  html, body {
     height: 100%;
     overflow: hidden;
